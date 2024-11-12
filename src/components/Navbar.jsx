@@ -2,6 +2,7 @@ import logo from "../assets/arunlogo.png";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import { FaRegFile } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom"
 
@@ -15,6 +16,9 @@ const Navbar = () => {
   const handleInstagramClick = () =>{
     window.open('https://www.instagram.com/arunn.chandran/', '_blank')
   };
+  const handleFileClick = () =>{
+    window.open('https://drive.google.com/file/d/1dE2alCFWD3xWCqsGoUV8PfUdtY_uyuJn/view?usp=sharing', '_blank')
+  };
 
   return (
     <nav className="mb-20 flex items-center justify-between py-6">
@@ -25,6 +29,8 @@ const Navbar = () => {
           <motion.div whileHover={{scale:1.2, transition:{duration:0.2}}} onClick={handleLinkedinClick} style={{ cursor: 'pointer' }} ><FaLinkedin /></motion.div>
           <motion.div whileHover={{scale:1.2, transition:{duration:0.2}}} onClick={handleGithubClick} style={{ cursor: 'pointer' }}><FaGithub /></motion.div>
           <motion.div whileHover={{scale:1.2, transition:{duration:0.2}}} onClick={handleInstagramClick} style={{ cursor: 'pointer' }}><FaInstagram /></motion.div>
+          <motion.div whileHover={{scale:1.2, transition:{duration:0.2}}} onClick={handleFileClick} style={{ cursor: 'pointer' }}><FaRegFile /></motion.div>
+
         </div>
     </nav>
   )
