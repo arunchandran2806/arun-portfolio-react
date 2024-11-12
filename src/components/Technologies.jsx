@@ -22,33 +22,33 @@ const Technologies = () => {
         initial={{opacity:0, x: -100}}
         transition={{duration:1.5}}
         className="flex flex-wrap items-center justify-center gap-4">
-            <div className="rounded-2xl border-0 border-neutral-800 pb-4">
+            <motion.div whileHover={{scale:1.2, transition:{duration:0.2}}} className="rounded-2xl border-0 border-neutral-800 pb-4">
                 <FaJava className="text-7xl text-purple-400" />
-            </div>
-            <div className="rounded-2xl border-0 border-neutral-800 pb-4">
+            </motion.div>
+            <motion.div whileHover={{scale:1.2, transition:{duration:0.2}}} className="rounded-2xl border-0 border-neutral-800 pb-4">
                 <FaPython className="text-7xl text-purple-400"/>
-            </div>
-            <div className="rounded-2xl border-0 border-neutral-800 pb-4">
+            </motion.div>
+            <motion.div whileHover={{scale:1.2, transition:{duration:0.2}}} className="rounded-2xl border-0 border-neutral-800 pb-4">
                 <SiMysql className="text-7xl text-purple-400" />
-            </div>
-            <div className="rounded-2xl border-0 border-neutral-800 pb-4">
+            </motion.div>
+            <motion.div whileHover={{scale:1.2, transition:{duration:0.2}}} className="rounded-2xl border-0 border-neutral-800 pb-4">
                 <FaHtml5 className="text-7xl text-purple-400" />
-            </div>
-            <div className="rounded-2xl border-0 border-neutral-800 pb-4">
+            </motion.div>
+            <motion.div whileHover={{scale:1.2, transition:{duration:0.2}}} className="rounded-2xl border-0 border-neutral-800 pb-4">
                 <FaReact className="text-7xl text-purple-400" />
-            </div>
-            <div className="rounded-2xl border-0 border-neutral-800 pb-4">
+            </motion.div>
+            <motion.div whileHover={{scale:1.2, transition:{duration:0.2}}} className="rounded-2xl border-0 border-neutral-800 pb-4">
                 <IoLogoJavascript className="text-7xl text-purple-400" />
-            </div>
-            <div className="rounded-2xl border-0 border-neutral-800 pb-4">
+            </motion.div>
+            <motion.div whileHover={{scale:1.2, transition:{duration:0.2}}} className="rounded-2xl border-0 border-neutral-800 pb-4">
                 <IoLogoGithub className="text-7xl text-purple-400" />
-            </div>
-            <div className="rounded-2xl border-0 border-neutral-800 pb-4">
+            </motion.div>
+            <motion.div whileHover={{scale:1.2, transition:{duration:0.2}}} className="rounded-2xl border-0 border-neutral-800 pb-4">
                 <FaDocker className="text-7xl text-purple-400" />
-            </div>
-            <div className="rounded-2xl border-0 border-neutral-800 pb-4">
+            </motion.div>
+            <motion.div whileHover={{scale:1.2, transition:{duration:0.2}}} className="rounded-2xl border-0 border-neutral-800 pb-4">
                 <FaPlus className="text-2xl text-white-400" />
-            </div>
+            </motion.div>
         </motion.div>
     </div>
   )

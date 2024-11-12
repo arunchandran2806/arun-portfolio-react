@@ -1,13 +1,15 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+export const HERO_CONTENT = `Passionate software developer with a knack for crafting robust and scalable web applications. As a final-year Computer Science and Engineering student, I’ve developed a strong foundation in front-end technologies like Python, Java, and web development (HTML, CSS, JavaScript), as well as back-end technologies like MySQL and MongoDB. My experience also extends to virtualization technologies and the exciting realms of Artificial Intelligence, Augmented Reality (AR), and Virtual Reality (VR). My goal is to leverage my skills and knowledge to create innovative solutions that address real-world problems, drive progress, and deliver exceptional experiences.`;
 
-export const HERO_CONTENT = `Passionate software developer with a knack for crafting robust and scalable web applications. As a final-year Computer Science and Engineering student, I’ve developed a strong foundation in front-end technologies like Python, Java, C/C++, and web development (HTML, CSS, JavaScript), as well as back-end technologies like MySQL and MongoDB. My experience also extends to virtualization technologies and the exciting realms of Artificial Intelligence, Augmented Reality (AR), and Virtual Reality (VR). My goal is to leverage my skills and knowledge to create innovative solutions that address real-world problems, drive progress, and deliver exceptional experiences.`;
-
-export const ABOUT_TEXT = `Hey! I am Arun and i am pursuing my final year of Bachelor of Technology in Computer Science and Engineering from Karunya Institute of Technology, Coimbatore, Tamil Nadu, India. During my school days, I was graduated with a 90% aggregate in Computer Science, Physics, Chemistry, and Mathematics from R S Krishnan Higher Secondary School in Tiruchirappalli, Tamil Nadu. I have particular interest in Software Development, DevOps, Artificial Intelligence, and Data Analytics and would like to be involved in those areas. As a skill set, job passion defines me as an adroit, curious, resourceful problem-solver with motivations, responsibility, organization, and an interesting person always learning and facing challenges. Of course, my perception on the ability of technology to transform our lives and thus come up with better solutions in solving everyday problems has been even tighter through commitment to innovative solutions.`;
+export const ABOUT_TEXT = `Hey! I am Arun and i am pursuing my final year of Bachelor of Technology in Computer Science and Engineering from Karunya Institute of Technology, Coimbatore, Tamil Nadu, India. During my school days, I was graduated with a 89% aggregate in Computer Science, Physics, Chemistry, and Mathematics from R S Krishnan Higher Secondary School in Tiruchirappalli, Tamil Nadu. I have particular interest in Software Development, DevOps, Artificial Intelligence, and Data Analytics and would like to be involved in those areas. As a skill set, job passion defines me as an adroit, curious, resourceful problem-solver with motivations, responsibility, organization, and an interesting person always learning and facing challenges. Of course, my perception on the ability of technology to transform our lives and thus come up with better solutions in solving everyday problems has been even tighter through commitment to innovative solutions.`;
 
 export const EXPERIENCES = [
+  {
+    year: "May 2024 - Jul 2024",
+    role: "Intel Unnati Summer Internship Program - 2024",
+    company: "Intel",
+    description: `Successfully completed an one month internship on “Fundamental of Machine Learning with Python for Business & Data Analytics”, provided by YBI Foundations and have submitted an project on Data Analysis on a software engineering companies dataset.`,
+    technologies: ["Python", "OpenCV", "RCNN", "Flask", "SQL", "Tkinter"],
+  },
   {
     year: "July 2023 - Sept 2023",
     role: "Web Development Intern",
@@ -50,13 +52,13 @@ export const PROJECTS = [
     title: "Smart Assistive glasses for individuals with low vision caused by diabetic retinopathy",
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["Python", "React", "Node.js", "MongoDB"],
+    technologies: ["Python", "Speech Recognition", "Super Resolution", "Augmented Reality", "Virtual Reality", "TTS"],
   },
   {
     title: "Staff Circle Management App",
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    technologies: ["Python", "TKinter", "MySQL"],
   },
   {
     title: "Portfolio Website",
@@ -68,7 +70,7 @@ export const PROJECTS = [
     title: "StarBot : Chatbot Application",
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    technologies: ["Python", "Tkinter", "pyttsx3", "Speech Recognition", "MySQL", "NLP"],
   },
 ];
 
