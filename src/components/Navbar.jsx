@@ -11,13 +11,13 @@ const Navbar = () => {
     window.open('https://www.linkedin.com/in/arunkumarc31/', '_blank')
   };
   const handleGithubClick = () =>{
-    window.open('https://github.com/arunchandran2806', '_blank')
+    window.open('https://github.com/ArunChandran31', '_blank')
   };  
   const handleInstagramClick = () =>{
     window.open('https://www.instagram.com/arunn.chandran/', '_blank')
   };
   const handleFileClick = () =>{
-    window.open('https://drive.google.com/file/d/1dE2alCFWD3xWCqsGoUV8PfUdtY_uyuJn/view?usp=sharing', '_blank')
+    window.open('https://drive.google.com/file/d/1IL4NjokycST3qaKUv9Qeh9Gnlif4lYY4/view?usp=sharing', '_blank')
   };
 
   return (

@@ -1,78 +1,98 @@
-export const HERO_CONTENT = `Passionate software developer with a knack for crafting robust and scalable web applications. As a final-year Computer Science and Engineering student, I’ve developed a strong foundation in front-end technologies like Python, Java, and web development (HTML, CSS, JavaScript), as well as back-end technologies like MySQL and MongoDB. My experience also extends to virtualization technologies and the exciting realms of Artificial Intelligence, Augmented Reality (AR), and Virtual Reality (VR). My goal is to leverage my skills and knowledge to create innovative solutions that address real-world problems, drive progress, and deliver exceptional experiences.`;
+export const HERO_CONTENT = `Computer Science Graduate passionate about software development, DevOps, and artificial intelligence. Skilled in building full-stack applications, deploying cloud-native microservices, and implementing CI/CD pipelines. Dedicated to solving real-world problems through scalable, user-centered solutions that drive innovation and create impact.`;
 
-export const ABOUT_TEXT = `Hey! I am Arun and i am pursuing my final year of Bachelor of Technology in Computer Science and Engineering from Karunya Institute of Technology, Coimbatore, Tamil Nadu, India. During my school days, I was graduated with a 89% aggregate in Computer Science, Physics, Chemistry, and Mathematics from R S Krishnan Higher Secondary School in Tiruchirappalli, Tamil Nadu. I have particular interest in Software Development, DevOps, Artificial Intelligence, and Data Analytics and would like to be involved in those areas. As a skill set, job passion defines me as an adroit, curious, resourceful problem-solver with motivations, responsibility, organization, and an interesting person always learning and facing challenges. Of course, my perception on the ability of technology to transform our lives and thus come up with better solutions in solving everyday problems has been even tighter through commitment to innovative solutions.`;
+export const ABOUT_TEXT = `Hi There!👋 I am Arun, a Computer Science Graduate from Karunya University, Coimbatore, Tamil Nadu. With hands-on experience in software engineering, DevOps, and AI, I bring a strong problem-solving mindset and a deep passion for building impactful digital solutions. Throughout my academic journey and internships at organizations like Intel and IBM, I’ve led and contributed to projects in web development, IoT, machine learning, and cloud-native architectures. I’m always eager to explore new technologies, take on challenges, and create tools that make a difference.`;
 
 export const EXPERIENCES = [
   {
-    year: "May 2024 - Jul 2024",
-    role: "Intel Unnati Summer Internship Program - 2024",
+    year: "May 2024 - July 2024",
+    role: "Intern - Intel Unnati Industrial Training",
     company: "Intel",
-    description: `Successfully completed an one month internship on “Fundamental of Machine Learning with Python for Business & Data Analytics”, provided by YBI Foundations and have submitted an project on Data Analysis on a software engineering companies dataset.`,
-    technologies: ["Python", "OpenCV", "RCNN", "Flask", "SQL", "Tkinter"],
+    description: `Built an innovative Tele-ICU monitoring system using OpenCV, R-CNN, and IoT sensors for patient vitals. Integrated Flask APIs, emergency alerts with Twilio, and data storage using SQLite.`,
+    technologies: ["OpenCV", "RCNN", "IoT", "Flask", "Twilio", "SQLite"],
   },
   {
-    year: "July 2023 - Sept 2023",
+    year: "April 2024 - June 2024",
+    role: "IBM Applied DevOps Engineering",
+    company: "IBM",
+    description: `Completed a professional certificate in DevOps. Built and deployed microservices using Docker, Kubernetes, and OpenShift. Implemented CI/CD with GitHub Actions, Tekton pipelines, and practiced TDD and DevSecOps.`,
+    technologies: ["Docker", "Kubernetes", "OpenShift", "CI/CD", "TDD", "GitHub Actions"],
+  },
+  {
+    year: "July 2024 - September 2024",
     role: "Web Development Intern",
     company: "Unified Mentor Pvt. Ltd.",
-    description: `Completed internship in Web Development for 2 months at Unified Mentor Pvt. Ltd., with the end result being projects like developing a ChatBot Application and an individual's Portfolio Website, done through hands-on development experience.`,
-    technologies: ["HTML","CSS - Tailwind CSS","Javascript", "React.js", "Next.js", "mongoDB"],
+    description: `Developed a Portfolio Website and ChatBot using ReactJS and modern web tools, gaining practical experience in responsive UI/UX design.`,
+    technologies: ["ReactJS", "HTML", "CSS", "Tailwind", "JavaScript"],
   },
   {
-    year: "Sept 2023 - Nov 2023",
-    role: "Networking Essentials",
-    company: "CISCO Networking Academy",
-    description: `Developed a Networking infrastructure on Packet Tracer in cisco which was conducted in virtual mode and the problem statement was given. From this Internship I was able to gain knowledge about basics and importance of networking in an environment`,
+    year: "February 2023 - December 2024",
+    role: "Core Team Member & Mentor",
+    company: "Build Club - KIDS Karunya & IITMIC",
+    description: `Mentored IoT and app development projects including automated wheelchairs. Actively led sessions and event management at Build Club.`,
+    technologies: ["Arduino", "Raspberry Pi", "IoT", "Dexter Boards"],
+  },
+  {
+    year: "September 2023 - November 2023",
+    role: "Networking Essentials Internship",
+    company: "CISCO AICTE Virtual Program",
+    description: `Built network infrastructure using Cisco Packet Tracer. Gained hands-on knowledge on IP configuration and network management.`,
     technologies: ["Packet Tracer"],
   },
   {
-    year: "Apr 2022 - Jul 2022",
-    role: "Programming Essentials in Python",
-    company: "CISCO Networking Academy",
-    description: `Developed a python program to analyze the valid IPv4 address in virtual mode. This internship was conducted using gmeet link in which the administration gave us the problemstatement and we gained knowledge on IPv4 Addressand its basics`,
-    technologies: ["Python"],
-  },
-  {
-    year: "Mar 2023 - Apr 2023",
-    role: "Fundamental of Machine Learning with Python for Business & Data Analytics",
-    company: "YBI Foundations ",
-    description: `Successfully completed an one month internship on “Fundamental of Machine Learning with Python for Business & Data Analytics”, provided by YBI Foundations and have submitted an project on Data Analysis on a software engineering companies dataset.`,
-    technologies: ["Python", "Pandas", "Sci-Kit Learn", "Seaborn"],
-  },
-  {
-    year: "Nov 2022 - Present",
-    role: "Ex - Build Club Core Team - Member (Mentor)",
-    company: "Build Club - KIDS Karunya & IITMIC",
-    description: `Got Selected into the Core team consisting of 8-7 individuals for representing the Build Club core team for Karunya Institute of Technology and Sciences, coimbatore and Build Club, IITMIC, and completed several projects and guided IOT based and Application Development related projects during the Build club sessions`,
-    technologies: ["Dexter Boards", "Raspberry Pi", "Arduino Boards", "IoT Devices"],
+    year: "March 2023 - April 2023",
+    role: "Machine Learning Intern",
+    company: "YBI Foundations",
+    description: `Performed data analysis on software engineering firms using Python. Gained experience in business-focused data insights.`,
+    technologies: ["Python", "Pandas", "Seaborn", "Scikit-learn"],
   },
 ];
 
+
 export const PROJECTS = [
   {
-    title: "Smart Assistive glasses for individuals with low vision caused by diabetic retinopathy",
+    title: "Smart Assistive Glasses",
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["Python", "Speech Recognition", "Super Resolution", "Augmented Reality", "Virtual Reality", "TTS"],
+      "Smart glasses leveraging AR, text magnification, object detection, and real-time navigation for visually impaired users with diabetic retinopathy.",
+    technologies: ["Python", "OpenCV", "Speech Recognition", "AR", "TTS", "Navigation"],
   },
   {
-    title: "Staff Circle Management App",
+    title: "DevOps Capstone Project",
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["Python", "TKinter", "MySQL"],
+      "Designed and deployed a cloud-native app using Flask, Docker, and Kubernetes. Followed Agile principles, implemented CI/CD, and ensured security across the SDLC.",
+    technologies: ["Flask", "Docker", "Kubernetes", "CI/CD", "Agile"],
+  },
+  {
+    title: "HMAI-ERA",
+    description:
+      "Real-time AI system to detect employee activity using face detection, motion tracking, and behavioral classification. Data handled via Flask & MongoDB dashboard.",
+    technologies: ["MTCNN", "SVM", "RNN", "Flask", "MongoDB", "Analytics"],
+  },
+  {
+    title: "StarBot - Voice Assistant",
+    description:
+      "Desktop voice assistant for tasks like browsing, alarms, and calculations. Built using Python, NLP, and speech synthesis.",
+    technologies: ["Python", "Speech Recognition", "pyttsx3", "NLP"],
+  },
+  {
+    title: "Staff Circle Management System",
+    description:
+      "Secure desktop app for managing staff records using Python and MySQL, replacing traditional record systems.",
+    technologies: ["Python", "Tkinter", "MySQL"],
   },
   {
     title: "Portfolio Website",
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Personal portfolio showcasing projects and skills. Built using React and deployed on Vercel.",
+    technologies: ["React", "Tailwind", "HTML", "CSS"],
   },
   {
-    title: "StarBot : Chatbot Application",
+    title: "CSA Bot - Discord Bot",
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["Python", "Tkinter", "pyttsx3", "Speech Recognition", "MySQL", "NLP"],
+      "Bot built using Discord.py to manage server roles, welcome messages, content moderation, and interactive commands.",
+    technologies: ["Python", "discord.py"],
   },
 ];
+
 
 export const CONTACT = {
   phoneNo: "+91 8807140620",
